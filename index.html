@@ -18,6 +18,16 @@ label{display:block;font-weight:700;margin:10px 0 4px}input{width:100%;font-size
 .res{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}.res div{background:var(--bg);border-radius:12px;padding:12px;text-align:center}.res b{display:block;font-size:22px;color:var(--b)}
 .news{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.news .card{margin:0;border-top:4px solid var(--t)}.news h3{margin:0 0 4px;font-size:18px}.tag{font-size:12px;background:var(--l);padding:2px 8px;border-radius:10px;color:var(--n)}
 .cta{background:linear-gradient(135deg,var(--t),var(--b));color:#fff;text-align:center;border-radius:20px;padding:30px 20px}.btn{display:inline-block;background:#fff;color:var(--n);font-weight:800;padding:12px 26px;border-radius:30px;text-decoration:none;margin:6px}
+.fbs{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -8px;padding:0 8px}
+.fbt{border-collapse:separate;border-spacing:0;min-width:760px;width:100%;font-size:14px}
+.fbt th,.fbt td{padding:10px;border-bottom:1px solid var(--l);vertical-align:top;text-align:left;background:#fff}
+.fbt th{background:var(--n);color:#fff;font-size:15px;line-height:1.4}.fbt th small{opacity:.8;font-weight:400}
+.fbt th:first-child,.fbt td:first-child{position:sticky;left:0;z-index:2;width:6.8em;min-width:6.8em;font-weight:700;color:var(--n);background:#eef4fb;box-shadow:2px 0 4px rgba(11,46,89,.08)}
+.fbt th:first-child{background:var(--n);color:#fff;z-index:3}
+.fbt tr:nth-child(even) td:not(:first-child){background:#fafcfe}.fbt small{color:var(--mu)}.fbt th small{color:#fff}
+.fbt td.y{color:#087a73}.fbt td.n{color:#9aa8b6}
+.fbt th .fbc{display:inline-block;font-size:11px;font-weight:700;background:var(--o);color:#fff;padding:1px 8px;border-radius:10px;margin:0 4px 6px 0;line-height:1.6}.fbt th .fbc.c2{background:var(--t)}.fbt th .nm{display:block;white-space:nowrap}
+.fbl{margin:0;padding-left:1.2em}.fbl li{margin:4px 0}
 footer{text-align:center;font-size:12px;color:var(--mu);padding:20px 16px 40px}
 
 html{scroll-behavior:smooth}
@@ -57,7 +67,7 @@ details.cl summary{cursor:pointer;font-weight:700;color:var(--n);padding:6px 0}.
 .cost{font-size:13px;border-radius:10px;padding:8px 10px;margin:8px 0 4px}.cost.pub{background:#fff3e3;border-left:4px solid var(--o);font-weight:700;color:#8a4500}.cost.ref{background:#eef6ff;border-left:4px dashed var(--b);color:#2b4a6b}.cost .src{font-weight:400;margin-top:2px}
 </style></head><body>
 <div id="prog"></div><header><span class="fl-ic" style="left:6%;top:20%">🩺</span><span class="fl-ic" style="right:8%;top:15%;animation-delay:-2s">💊</span><span class="fl-ic" style="left:12%;bottom:12%;animation-delay:-4s">❤️</span><span class="fl-ic" style="right:14%;bottom:18%;animation-delay:-1s">🛡️</span><h1>認識「重大傷病」</h1><p>生病最怕的，不只是醫藥費——<br>一起看懂風險、花費與保障缺口</p><svg class="ekg" viewBox="0 0 320 40" aria-hidden="true"><path d="M0 20H110l10-14 12 28 10-22 8 8H320"/></svg></header>
-<nav><a href="#s1">什麼是重大傷病</a><a href="#s1b">重大傷病險</a><a href="#s2">發生率</a><a href="#s3">排名</a><a href="#s4">花費</a><a href="#s4b">收入中斷</a><a href="#s4d">族群建議</a><a href="#s5">保額試算</a><a href="#s6">名人案例</a><a href="#s4c">險種比較</a></nav>
+<nav><a href="#s1">什麼是重大傷病</a><a href="#s1b">重大傷病險</a><a href="#s2">發生率</a><a href="#s3">排名</a><a href="#s4">花費</a><a href="#s4b">收入中斷</a><a href="#s4d">族群建議</a><a href="#s5">保額試算</a><a href="#s6">名人案例</a><a href="#s4c">險種比較</a><a href="#s8">富邦比較</a></nav>
 
 <section id="s1"><h2><small>01 WHAT</small>什麼是重大傷病？</h2>
 <div class="card">「重大傷病」是<b>健保</b>針對需長期、高強度治療的疾病所核發的身分證明。經醫師診斷並向健保署申請核定後，因該疾病就醫可<b>免除健保部分負擔</b>；目前公告共<b>30 類</b>。<br>
@@ -194,6 +204,37 @@ details.cl summary{cursor:pointer;font-weight:700;color:var(--n);padding:6px 0}.
 <tr><td>適合誰</td><td>家族癌症史、想加強癌症</td><td>擔心心血管等急症</td><td>想補強特定疾病</td><td>有定期健檢習慣、希望範圍較廣</td></tr></table>
 <div class="src">一般性說明（來源見「什麼是重大傷病險」一節），實際保障內容、定義與除外責任以各商品條款為準。</div></div>
 <div class="card">🔍 <b>健檢普及，疾病越來越早被發現</b>：投保不能只比保費，也要看自己的<b>就醫與健檢習慣</b>、以及保障範圍是否對得上。<div class="quote" style="margin-top:10px">保險沒有絕對好或不好，重點是「適不適合你」。</div></div>
+</section>
+<section id="s8"><h2><small>08 FUBON</small>富邦現行重大傷病險比較</h2>
+<p class="card" style="margin-top:8px">四張都參照健保重大傷病範圍理賠，差別在<b>保多久、期滿能不能拿回、附加功能</b>。手機可左右滑動表格 👉</p>
+<div class="card fbw"><div class="fbs"><table class="fbt">
+<tr><th>項目</th><th><span class="fbc">終身保障</span><span class="nm">醫保安心</span><small>（終身）SDG</small></th><th><span class="fbc">期滿拿回</span><span class="nm">金卡安心</span><small>SDH</small></th><th><span class="fbc">新上市</span><span class="fbc c2">年年生存金</span><span class="nm">溢卡呵護</span><small>SDP</small></th><th><span class="fbc">保證續保</span><span class="nm">醫靠安心</span><small>（10年定期）SDKA</small></th></tr>
+<tr><td>保障期間</td><td><b>終身</b></td><td>25／30／35／45年<br><small>依繳費年期</small></td><td>45／50／55／65年<br><small>依繳費年期</small></td><td>10年，保證續保<br><small>續保最高至71歲</small></td></tr>
+<tr><td>繳費年期／投保年齡</td><td>10年：0–60歲<br>15年：0–55歲<br>20年：0–50歲<br>30年：0–40歲</td><td>10年：0–60歲<br>15年：0–55歲<br>20年：0–50歲<br>30年：0–40歲</td><td>10年：0–60歲<br>15年：0–55歲<br>20年：0–50歲<br>30年：0–40歲</td><td>10年（同保障期間）<br>15足歲–61歲</td></tr>
+<tr><td>保額範圍</td><td>10萬–500萬</td><td>10萬–500萬</td><td>10萬–500萬</td><td>50萬–200萬</td></tr>
+<tr><td>繳費期滿／期滿可領</td><td><b>祝壽保險金</b><br><small>100歲仍生存，給付保額與已繳保費1.06倍取高</small></td><td><b>滿期保險金</b><br><small>保障期滿仍生存，給付保額與已繳保費1.06倍取高</small></td><td><b>每年3%生存保險金</b><br><small>繳費期滿後每年領；之後理賠會扣除已領金額</small></td><td><b>無理賠回饋 10%</b><br><small>10年內未理賠，期滿給付已繳保費10%（續保亦同）</small></td></tr>
+<tr><td>身故／完全失能</td><td>保額、已繳保費1.06倍、保單價值準備金 三者取高</td><td>保額、已繳保費1.06倍 取高</td><td>保額、已繳保費1.06倍 取高<br><small>繳費期滿後扣除已領生存金</small></td><td>保額、已繳保費1.06倍 取高</td></tr>
+<tr><td>豁免保費</td><td class="y">✓ 二至六級意外失能</td><td class="y">✓ 二至六級意外失能</td><td class="y">✓ 二至六級意外失能</td><td class="n">—</td></tr>
+<tr><td>分期給付</td><td class="y">✓ 可選6／12／24個月按月領<br><small>第2保單年度起</small></td><td class="y">✓ 可選6／12／24個月按月領<br><small>第2保單年度起</small></td><td class="n">—<br><small>一次給付</small></td><td class="y">✓ 可選6／12／24個月按月領<br><small>第2保單年度起</small></td></tr>
+<tr><td>外溢優惠</td><td>疫苗或健檢：次年續期保費 1%</td><td>疫苗或健檢：次年續期保費 1%</td><td>疫苗或健檢：次年續期保費 1%</td><td>疫苗 2%、健檢 3%、兩者 <b>5%</b></td></tr>
+<tr><td>適合誰</td><td>希望保障一輩子、不擔心老年保障中斷的人</td><td>想保障一段期間，期滿沒用到也希望拿回一筆的人</td><td>繳費期滿後想每年領一筆、同時保障到較長年期的人</td><td>15–61歲、想先用10年期定期保障，之後可保證續保的人</td></tr>
+</table></div>
+<div class="src" style="margin-top:8px"><span class="demo">DM試算範例</span> 醫保安心（SDG）：30歲女性、保額100萬、20年繳，年繳保費 38,600元（富邦DM範例，實際保費依年齡、性別與核保而定）。</div></div>
+<div class="card"><h3 style="margin:0 0 8px;color:var(--n)">📌 四張共同的重點</h3><ul class="fbl">
+<li><b>理賠條件</b>：取得健保重大傷病證明，或區域醫院以上開立符合範圍的診斷書＋病歷摘要（擇一）。</li>
+<li><b>一次給付</b>：給付重大傷病保險金後，契約即終止。</li>
+<li><b>加碼20%</b>：燒燙傷（20%以上或顏面）、重大創傷（ISS 16分以上）、脊髓損傷 3 項特定重大傷病，第2保單年度起另加給保額20%。</li>
+<li><b>心血管也有保</b>：急性心肌梗塞（重度）、冠狀動脈繞道手術（特定重大疾病），主動脈外科置換手術、嚴重原發性肺動脈高血壓（特定傷病）。</li>
+<li><b>8項除外</b>：遺傳性凝血因子缺乏、先天性新陳代謝異常、先天性畸形及染色體異常、先天性免疫不全、職業病、先天性肌肉萎縮症、外皮先天畸形、早產兒併發症。</li>
+<li><b>慢性精神病</b>：給付保額的20%。</li>
+<li><b>第1保單年度</b>：重大傷病只給付約已繳保費的1.06倍；第2年起才按保額。</li>
+<li><b>等待期</b>：30天；癌症及特定重大疾病為90天；意外不受限制。</li>
+<li>投保前已領證、正在申請，或已被診斷符合重大傷病項目者，不理賠重大傷病保險金。</li></ul></div>
+<div class="src">資料來源：富邦人壽官方條款與商品DM —
+醫保安心SDG <a href="https://www.fubon.com/life/cms/publish/407/20260812/template/20260812_15e396b96bbb4d7a8ed9797df2f35253.pdf" target="_blank" rel="noopener">條款</a>／<a href="https://www.fubon.com/life/cms/publish/257/20260702/product/20260702_0d8596b0bee04d1899f5118289939e93.pdf" target="_blank" rel="noopener">DM</a>、
+金卡安心SDH <a href="https://www.fubon.com/life/cms/publish/407/20260812/template/20260812_3710ea905ae14df9a273b941c77e22fa.pdf" target="_blank" rel="noopener">條款</a>／<a href="https://www.fubon.com/life/cms/publish/257/20260702/product/20260702_29dbe1e8815e4a8fa63618d249247019.pdf" target="_blank" rel="noopener">DM</a>、
+溢卡呵護SDP <a href="https://www.fubon.com/life/cms/publish/407/20261022/template/20261022_4001357f34c04a26b35b0669b4c4da13.pdf" target="_blank" rel="noopener">條款</a>／<a href="https://www.fubon.com/life/cms/publish/257/20261022/product/20261022_a1b4327e12664efbb170af7e29378605.pdf" target="_blank" rel="noopener">DM</a>、
+醫靠安心SDKA <a href="https://www.fubon.com/life/cms/publish/407/20260812/template/20260812_de4e9178223648d4a4aa89c46ef1d125.pdf" target="_blank" rel="noopener">條款</a>／<a href="https://www.fubon.com/life/cms/publish/257/20260702/product/20260702_ec74c99a26af4c40b85ea7fd447e134e.pdf" target="_blank" rel="noopener">DM</a>。<br>實際內容以富邦人壽條款為準，商品銷售狀態請以公司公告為準。</div>
 </section>
 
 <footer>本頁內容僅供健康與財務教育參考，不構成任何保險商品之招攬或給付承諾；各項統計以官方最新公布為準。標示「示範值」者為假設數字。</footer>
